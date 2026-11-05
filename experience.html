@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Experience | Finley Hardie</title>
+<meta name="description" content="Finley Hardie's work experience in affordable-housing asset management and leadership roles.">
+<meta property="og:title" content="Experience | Finley Hardie">
+<meta property="og:description" content="Finley Hardie's work experience in affordable-housing asset management and leadership roles.">
+<meta property="og:image" content="https://finleyhardie-bit.github.io/img/finley-hardie.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Public+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23172A3A'/%3E%3Ctext x='32' y='43' font-family='Arial' font-weight='700' font-size='30' text-anchor='middle' fill='%23fff'%3EFH%3C/text%3E%3C/svg%3E">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-head"><div class="wrap">
+<a class="brand" href="index.html">Finley Hardie</a>
+<nav class="nav" aria-label="Main"><a href="index.html">Home</a><a href="projects.html">Projects</a><a href="experience.html" aria-current="page">Experience</a><a href="skills.html">Skills</a><a href="education.html">Education</a><a href="beyond.html">Beyond work</a></nav>
+</div></header>
+<main id="main">
+
+<section class="page-intro"><div class="wrap">
+<h1>Experience</h1>
+<p class="lede">What I've worked on, the tools I used and what came of it. I've kept the numbers but left out anything confidential (no property, client or partner names).</p>
+</div></section>
+
+<section class="section" style="padding-top:8px"><div class="wrap">
+
+<div class="entry">
+<div class="when"><strong>July 2026 to present</strong>Part-time during the school year. Joining full time in July 2027.</div>
+<div>
+<h3>Asset Management &amp; Development Intern</h3>
+<p class="org">Smith &amp; Henzy, affordable-housing development and finance (LIHTC)</p>
+<p>I support the asset management and development teams on a portfolio of low-income housing tax credit (LIHTC) properties: performance reporting, next-year budgets, the monthly portfolio tracker, construction draws and compliance. I use AI tools heavily for the build work. I set the methodology and rules, direct the work and check every output before it goes to my supervisors.</p>
+
+<p class="sub">Budget vs. actual dashboard (my own initiative)</p>
+<ul>
+<li><strong>Problem:</strong> leadership had no single view of how properties were doing against budget, and the financials arrived in about 9 different property-manager formats.</li>
+<li><strong>What I did:</strong> normalized six months of budget-vs-actual data for 21 properties into one dataset with 5 standard metrics (income, expenses, NOI, vacancy, expense ratio). I built a one-file dashboard in R and Quarto with automatic red, yellow and green flags.</li>
+<li><strong>Challenge:</strong> 7 properties paid some costs, like insurance or taxes, through escrow on one side of the report only. I set a rule to drop a mismatched category from both sides and footnote it, so no property is ever compared on mismatched totals. Some reports were scanned images that needed OCR.</li>
+<li><strong>Result:</strong> flagged 7 properties for follow-up. New months can be added without touching the dashboard code.</li>
+</ul>
+<figure style="margin:18px 0 8px;max-width:760px"><img src="img/bva-dashboard-illustration.jpg" alt="Illustration of a budget-vs-actual dashboard with twelve property cards flagged review, watch or on track" loading="lazy"><figcaption>What the dashboard looks like, rebuilt with invented properties and numbers. The real one uses confidential data.</figcaption></figure>
+
+<p class="sub">Next-year operating budgets</p>
+<ul>
+<li>Prepared 2027 operating budgets for 16 properties from trailing-12-month actuals, using a written rule set so every property is budgeted the same way. For example, vacancy is a flat 5%, utilities rise 3% unless a known rate exists, and management fees come from the actual contract.</li>
+<li>Caught problems that would have skewed budgets: partial-year data labeled as a full year, outdated embedded tabs, and debt on the balance sheet that never showed on the income statement. A line-by-line audit after one rebuild caught a stale value that a formula check had missed.</li>
+</ul>
+
+<p class="sub">Monthly portfolio tracker</p>
+<ul>
+<li>Each month about 30 properties' financials go into one tracker. I documented where each of its ~28 columns comes from for each of the 6 main report formats, and added tie-out checks (income and net cash flow must match the statements).</li>
+<li>Found and fixed a formula error that added up a monthly <em>balance</em> instead of averaging it, overstating delinquent rent across the portfolio. I then built a delinquency tab that finds each property's latest month and highlights rising or falling balances.</li>
+</ul>
+
+<p class="sub">Compliance and one-off analysis</p>
+<ul>
+<li>Read the recorded regulatory agreements for 3 newly acquired LIHTC communities (310 units) to find 7 required resident-service categories and how often each is required. I caught that the property manager's notes, which said there was no requirement, were wrong. I then lined up local nonprofit and public providers.</li>
+<li>Reviewed 57 vendor invoices against the payables tracker and caught 13 already entered, a possible duplicate charge, and a vendor change of payment account that could have misrouted a payment.</li>
+<li>Built a side-by-side pro forma comparison for the firm's principals. The first draft was called "impossible to read," so I rebuilt it with clear labels, simple formatting and notes on a separate tab, and it was approved on the second pass.</li>
+</ul>
+<ul class="pill-row"><li>Excel</li><li>R</li><li>Quarto</li><li>Python</li><li>OCR</li><li>AI agents</li><li>LIHTC</li><li>Budgeting</li><li>Variance analysis</li></ul>
+</div>
+</div>
+
+<div class="entry">
+<div class="when"><strong>2025 to present</strong>University of Denver</div>
+<div>
+<h3>Executive Chair of New Member Education</h3>
+<p class="org">Sigma Chi Fraternity</p>
+<ul>
+<li>Elected to the executive board of a chapter with 120+ members.</li>
+<li>Design and run the onboarding program for each incoming new member class.</li>
+<li>Work with the executive board on planning, budgeting and day-to-day operations.</li>
+</ul>
+<ul class="pill-row"><li>Leadership</li><li>Program design</li><li>Budgeting</li></ul>
+</div>
+</div>
+
+<div class="entry">
+<div class="when"><strong>2024 to 2025</strong>Denver, CO</div>
+<div>
+<h3>Kitchen Steward</h3>
+<p class="org">College Fresh</p>
+<ul>
+<li>Kept a high-volume campus kitchen running on schedule, working as part of a fast-moving team while carrying a full course load.</li>
+</ul>
+<ul class="pill-row"><li>Reliability</li><li>Teamwork</li><li>Time management</li></ul>
+</div>
+</div>
+
+</div></section>
+
+</main>
+<footer class="site-foot"><div class="wrap">
+<div><h2>Let's talk</h2><p>Denver, CO and New Orleans, LA. English and French.</p></div>
+<ul>
+<li><a href="mailto:finleyhardie@gmail.com">finleyhardie@gmail.com</a></li>
+<li><a href="https://www.linkedin.com/in/finleyhardie">LinkedIn</a></li>
+<li><a href="https://github.com/finleyhardie-bit">GitHub</a></li>
+</ul>
+</div></footer>
+</body>
+</html>
