@@ -50,7 +50,7 @@ p{margin:0 0 1em;max-width:var(--measure)}
 /* hero */
 .hero{padding:72px 0 56px}
 .hero .wrap{display:grid;grid-template-columns:minmax(0,1.55fr) minmax(0,1fr);gap:56px;align-items:center}
-.hero .statement{font:700 clamp(2rem,4.4vw,3.35rem)/1.08 var(--display);letter-spacing:-.025em;margin:0 0 24px;max-width:18ch}
+.hero .statement{font:700 clamp(2rem,4.4vw,3.35rem)/1.08 var(--display);letter-spacing:-.025em;margin:0 0 24px;max-width:20ch}
 .hero .intro{font-size:1.15rem;color:var(--muted);max-width:52ch}
 .hero .seeking{margin-top:28px;padding:16px 18px;border-left:3px solid var(--green);background:var(--green-soft);max-width:52ch}
 .hero .seeking strong{display:block;font-family:var(--display);font-size:1.05rem}

@@ -73,8 +73,8 @@ def fig(src, alt, cap):
 home = f"""
 <section class="hero"><div class="wrap">
 <div>
-<h1 class="statement">I turn messy data from many sources into numbers people can trust and act on.</h1>
-<p class="intro">I'm a Business Analytics student at the University of Denver's Daniels College of Business, minoring in French. I work in asset management for an affordable-housing developer, where I build budgets, dashboards and portfolio trackers for LIHTC properties. I grew up across Europe and I'm a native French speaker.</p>
+<h1 class="statement">Business analytics student working in affordable-housing asset management.</h1>
+<p class="intro">I study Business Analytics at the University of Denver's Daniels College of Business, with a minor in French. At Smith &amp; Henzy I build budgets, dashboards and portfolio trackers for LIHTC properties. I grew up across Europe and I'm a native French speaker.</p>
 <div class="seeking"><strong>What's next</strong>I graduate in May 2027 and join Smith &amp; Henzy full time that July. I'm always happy to connect with people working in analytics, real estate finance and affordable housing.</div>
 <div class="cta">
 <a class="btn primary" href="projects.html">See my projects</a>
