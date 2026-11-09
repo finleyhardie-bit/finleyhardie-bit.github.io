@@ -31,7 +31,12 @@ def shell(fname, title, desc, body):
 <meta name="description" content="{desc}">
 <meta property="og:title" content="{full_title}">
 <meta property="og:description" content="{desc}">
-<meta property="og:image" content="https://finleyhardie-bit.github.io/img/finley-hardie.jpg">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://finleyhardie-bit.github.io/">
+<meta property="og:image" content="https://finleyhardie-bit.github.io/img/social-preview.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700&family=Public+Sans:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
