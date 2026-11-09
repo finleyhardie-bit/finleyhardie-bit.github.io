@@ -33,7 +33,7 @@ def shell(fname, title, desc, body):
 <meta property="og:description" content="{desc}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://finleyhardie-bit.github.io/">
-<meta property="og:image" content="https://finleyhardie-bit.github.io/img/social-preview.png">
+<meta property="og:image" content="https://finleyhardie-bit.github.io/img/social-preview-v2.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="627">
 <meta name="twitter:card" content="summary_large_image">
